@@ -1,0 +1,38 @@
+{
+  "name": "downtime",
+  "version": "0.1.0",
+  "description": "Background tasks API abstraction. Do background work during browser idle time.",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "downtime.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "node test.js"
+  },
+  "homepage": "https://github.com/ryanve/downtime",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/downtime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/downtime/issues"
+  },
+  "keywords": [
+    "requestIdleCallback",
+    "cancelIdleCallback",
+    "background-tasks",
+    "performance",
+    "javascript",
+    "scheduling",
+    "callbacks",
+    "schedule",
+    "downtime",
+    "browser",
+    "timing",
+    "tasks",
+    "idle"
+  ],
+  "devDependencies": {
+    "eslint": "^4.3.0"
+  }
+}
