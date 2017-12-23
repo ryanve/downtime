@@ -32,7 +32,7 @@ downtime.dont(id)
 ## Notes
 
 - Downtime uses `requestIdleCallback` and `cancelIdleCallback` where available
-- Fallback technique is based on [this gist](https://gist.github.com/paullewis/55efe5d6f05434a)
+- Fallback technique is based on [this gist](https://gist.github.com/paullewis/55efe5d6f05434a96c36)
 - For [best performance](https://developers.google.com/web/updates/2015/08/using-requestidlecallback), avoid DOM manipulation during idle time
 
 ## Compatibility
