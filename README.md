@@ -24,7 +24,7 @@ downtime.do(function(deadline) {
 
 - Cancel callback represented by `id`
 
-```
+```js
 var id = downtime.do(doBackgroundWork)
 downtime.dont(id)
 ```
