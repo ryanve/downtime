@@ -1,6 +1,6 @@
 {
   "name": "downtime",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Background tasks API abstraction. Do background work during browser idle time.",
   "author": "Ryan Van Etten",
   "license": "ISC",
